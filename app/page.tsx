@@ -1,10 +1,9 @@
-import { Button } from "@radix-ui/themes";
+import Hero from "./components/sections/Hero";
 
 export default function Home() {
   return (
     <div>
-      <p>Hello World</p>
-      <Button>Button</Button>
+      <Hero />
     </div>
   );
 }
