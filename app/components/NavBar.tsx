@@ -5,10 +5,10 @@ import Link from "next/link";
 
 const NavBar = () => {
   return (
-    <nav className="py-5 bg-[#1F1F3A]">
+    <nav className="py-5 bg-[#f8f9fa] ">
       <Flex justify="between" className="px-11 ">
         <Link href="/" className="flex items-center gap-3 ">
-          <Text weight="medium" size="6" className="text-[#E4E4FF]">
+          <Text weight="medium" size="6" className="">
             Sleeprestrict.com
           </Text>
         </Link>
@@ -28,7 +28,7 @@ const NavLinks = () => {
       {links.map((link) => (
         <li key={link.href}>
           <Link
-            className=" nav-link transition-transform transform hover:scale-110 text-[#E4E4FF] "
+            className=" nav-link transition-transform transform hover:scale-110"
             href={link.href}
           >
             <Text weight="medium" size="4">

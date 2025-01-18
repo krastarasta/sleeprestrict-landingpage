@@ -3,16 +3,15 @@ import { Play } from "lucide-react";
 
 const Hero = () => {
   return (
-    <section className="w-full h-full pt-10 primaryBackground">
+    <section className="w-full h-full pt-10">
       <Container>
         <Flex direction="column" justify="center" align="center" gap="6" px="8">
           <Heading align="center" size="9" className="textPrimary">
-            Sleepiest - CBTi tool for better sleep
+            Overcome Insomnia with Proven Sleep Restriction Techniques!
           </Heading>
           <Text align="center" size="5" className="textPrimary">
-            Say goodbye to sleepless nights. Sleepiest offers expert CBTi tools
-            to conquer insomnia with educational videos, a sleep tracker, and a
-            step-by-step plan for lasting results.
+            Learn from evidence-based methods and track your progress with our
+            Sleep Restriction Tracker.
           </Text>
           <Flex gap="5" align="center">
             <Button color="violet" size="4">
